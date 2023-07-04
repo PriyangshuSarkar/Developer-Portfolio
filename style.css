@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-shape-divider-top-1687873272 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1687873272 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.custom-shape-divider-top-1687873272 .shape-fill {
+    fill: #30D5C8;
+}
+
+body {
+    background-color: #2C3333;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    color: whitesmoke;
+    font-size: 3rem;
+    margin: auto;
+}
+
+.leftSection .res {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    display: flex;
+    font-size: 15px;
+    background-color: #30D5C8;
+    padding: 15px 20px;
+    color: #2C3333;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .15);
+}
+
+.leftSection .res:hover {
+    background-color: rgba(48, 213, 199, 0.8);
+    cursor: pointer;
+}
+
+.leftSection .icons i:hover {
+    color: rgba(245, 245, 245, 0.8);
+    cursor: pointer;
+}
+
+.leftSection .icons {
+    padding: 5px;
+}
+
+.rightSection {
+    display: flex;
+}
+
+.rightSection img {
+    width: 75%;
+    margin-top: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5);
+}
+
+.Name {
+    color: #30D5C8;
+}
+
+.Domain {
+    color: #30D5C8
+}
+
+main hr {
+    border: 0;
+    background-color: #30D5C8;
+    height: 3px;
+    margin: 90px 125px;
+    border-radius: 100px;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+}
+
+.secondsection h1 {
+    font-size: 3rem;
+}
+
+.secondsection li {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 50%;
+}
+
+li {
+    padding: 40px;
+}
+
+.secondsection h2 {
+    color: #30D5C8;
+}
+
+.secondsection a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.secondsection li:hover {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .15);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+}
+
+.thirdsection h1 {
+    font-size: 3rem;
+}
+
+.thirdsection li {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 50%;
+}
+
+.thirdsection li {
+    padding: 40px;
+}
+
+.thirdsection h2 {
+    color: #30D5C8;
+}
+
+.thirdsection a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.thirdsection li:hover {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .15);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+}
+
+
+
+/* footer {
+} */
+
+.footer {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.to-top{
+    color: inherit;
+    padding-bottom: 50px;
+    size: 20px;
+}
+
+.to-top:hover{
+    color: rgba(245, 245, 245, 0.8);
+    cursor: pointer;
+}
+
+
+/* Media Query */
+@media (max-aspect-ratio: 1/1) {
+    .leftSection{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-aspect-ratio: 7/8) {
+    .leftSection{
+        font-size: 2.15rem;
+    }
+}
+
+@media (max-aspect-ratio: 3/4) {
+
+    *{
+        align-items: center;
+    }
+
+
+    .firstSection {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .leftSection{
+        font-size: auto;
+        white-space: nowrap;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        font-size: 2rem;
+    }
+
+
+    .firstSection>div {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .rightSection img {
+        width: 100%;
+    }
+
+    .secondsection li,
+    .thirdsection li {
+        align-items: center;
+        width: auto;
+        padding: auto;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .15);
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, .1);
+        backdrop-filter: blur(5px);
+    }
+
+    .secondsection li p,
+    .thirdsection li p{
+        /* width: 100%; */
+        font-size: 0.75rem;
+    }
+}
+
